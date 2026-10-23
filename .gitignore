@@ -1,0 +1,17 @@
+# operator chrome profile (browser sessions live here)
+chrome-profile/
+opencode-operator/chrome-profile/
+
+# run artifacts
+*.log
+last-run.txt
+run.lock
+
+# config backups created by the installer
+opencode.config.backup.*
+
+# misc local state
+*.psm1
+snap*.txt
+inject_file.js
+node_modules/
